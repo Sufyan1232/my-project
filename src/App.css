@@ -1,0 +1,227 @@
+.App {
+ 
+  background-color: rgb(255, 255, 255);
+  border-radius: 30px;
+  background-image: url("./img/npur.png");
+  /* background-image: url("./img/wav.jpeg"); */
+  background-position-x: 470px;
+  background-position-y: 0px;
+  background-repeat: no-repeat;
+  background: rotate(160deg);
+  margin: 80px; 
+  background-size: 400px;
+}
+.onemore{
+  background-color: rgb(60, 7, 121);
+  padding: 40px;
+}
+.main__page{
+  /* background-color: rgb(60, 7, 121); */
+   /* background: linear-gradient(to right, #ecfcff  26.71%, #f268ff 99.36%); */
+  /* background-image: url("./img/pur.PNG");
+ background-repeat: no-repeat;
+ background-size: 1600px; */
+}
+.main1{
+  /* background-color: rgb(60, 7, 121); */
+
+}
+.white{
+  /* background-color: rgb(60, 7, 121); */
+
+}
+.sign_up{
+  align: center;
+  background-color: goldenrod;
+  padding-left: 170px;
+  padding-right: 160px;
+  margin-left: 0px;
+  margin-right: 0px;
+  
+}
+
+
+
+.header{
+  padding-top: 0px;
+  padding: 20px;
+  object-fit: contain;
+ 
+  background-size: contain;
+  background-position-x:right;
+
+
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-between;
+
+}
+.img1{
+  align-items: center;
+  width: 80px;
+  object-fit: contain;
+  cursor: pointer;
+  padding-right: 10px;
+}
+.app__signup {
+  display: flex;
+  flex-direction:  column;
+  padding-top: 5px;
+}
+
+.sign__form{
+  top: 30%;  
+  
+}
+.modal_body{
+  background-color: #2b3338;
+}
+.inp{
+  width: 80%;
+  background-color: #a3a7a77c;
+  border-top :  0rem;
+  border-left: 0rem;
+  border-right: 0rem;
+  border-color: rgb(10, 10, 10);
+  padding: 7px;
+  margin: 5px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  
+}
+.inbtn{
+  margin-top: 20px;
+  width: 20%;
+  margin-left: 350px;
+  background-color: goldenrod;
+}
+.app__posts{
+  padding: 20px;
+  
+}
+.left{
+  margin-top: 0px;
+}
+.right{
+  display: flex;
+  flex-direction: 1 column;
+  justify-content: space-between;
+  margin-right: 40px;
+  margin-top: 30px;
+}
+
+.space{
+ 
+ 
+}
+
+.div1{
+  max-width: 450px;
+  display: flex;
+  justify-content: space-between;
+  border: 2px rgb(165, 148, 148);
+  border-style: solid;
+  border-radius: 20px;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background: rgb(255, 255, 255);
+  
+position: fixed;
+bottom: 10px;
+margin-left: 360px;
+object-fit: contain;
+box-shadow: 5px 8px rgba(44, 43, 43, 0.61);
+}
+.div1:hover {
+  /* background: linear-gradient(180deg, #2b3338 26.71%, #fb982f 99.36%); */
+  
+  
+  
+}
+.im4 {
+  transition: width 2s, height 2s, transform 2s;
+  cursor: pointer;
+}
+
+.im4:hover {
+ 
+  transform: rotate(180deg);
+}
+.im1 {
+  transition: transform .2s; /* Animation */
+  cursor: pointer;
+}
+.im1:hover{
+  transform: scale(1.5);
+  
+}
+.im2 {
+  transition: transform .2s; /* Animation */
+  cursor: pointer;
+}
+.im2:hover{
+  transform: scale(1.5);
+}
+.im3 {
+  transition: transform .2s; /* Animation */
+  cursor: pointer;
+}
+.im3:hover{
+  transform: scale(1.5);
+}
+/* .bakimg{
+  background-image: url("https://png.pngtree.com/thumb_back/fh260/back_our/20200817/ourmid/pngtree-dark-atmosphere-creative-background-png-image_394255.jpg");
+  background-position-x: ;
+  background-repeat: no-repeat;
+  padding: 30px;
+  background-color: #0d0b2c;
+  object-fit: contain;
+  border-bottom: 2px solid lightgray;
+  display: flex;
+  justify-content: space-between;
+} */
+.your{
+  color: rgb(0, 0, 128);
+  font-size: 30px;
+  font-style: oblique;
+  font-family:cursive;
+  font-weight: bold;
+  cursor: pointer;
+}
+.uname{
+  max-width: 500px;
+  background-color: #dce0e2;
+  padding: 20px;
+  border: 2px black;
+  border-style: solid;
+  margin: 10px;
+  cursor:pointer;
+}
+.utext{
+  color: #050505;
+  font-weight: bold;
+}
+.ubut{
+  background: linear-gradient(180deg, #313538 26.71%, #fb2f2f 99.36%);
+  font-weight: bold;
+  border-radius: 40%;
+  border: 1px white;
+  border-style: solid;
+  
+}
+.uinput{
+  background-color: white;
+}
+.search{
+  max-width: 500px;
+}
+.btn{
+  font-weight: bold;
+}
+.sbtn{
+  background-color: #fb982f;
+  border-radius: 10px;
+  color: white;
+  padding-left: 5px;
+}
